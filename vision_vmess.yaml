@@ -1,0 +1,16 @@
+proxies:
+- name: 104.18.225.52
+  type: vmess
+  server: 104.18.225.52
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
