@@ -1,0 +1,376 @@
+proxies:
+- name: app-stg.gopay.co.id
+  type: vmess
+  server: app-stg.gopay.co.id
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: 104.18.62.203
+  type: vmess
+  server: 104.18.62.203
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: 104.18.40.232
+  type: vmess
+  server: 104.18.40.232
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: 172.64.147.24
+  type: vmess
+  server: 172.64.147.24
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: onelink.seabank.co.id
+  type: vmess
+  server: onelink.seabank.co.id
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: cf.shopee.co.id
+  type: vmess
+  server: cf.shopee.co.id
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: 104.18.56.56
+  type: vmess
+  server: 104.18.56.56
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: cf.shopee.co.id.cloudscdn.net
+  type: vmess
+  server: cf.shopee.co.id.cloudscdn.net
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: cf.shopee.co.id.sea-sw.swiftserve.com
+  type: vmess
+  server: cf.shopee.co.id.sea-sw.swiftserve.com
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: account.pmang.game.naver.com
+  type: vmess
+  server: account.pmang.game.naver.com
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: media.fcgk35-1.fna.whatsapp.net
+  type: vmess
+  server: media.fcgk35-1.fna.whatsapp.net
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: w5.web.whatsapp.com
+  type: vmess
+  server: w5.web.whatsapp.com
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: v.whatsapp.net
+  type: vmess
+  server: v.whatsapp.net
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: tellafriendreceiver.whatsapp.net
+  type: vmess
+  server: tellafriendreceiver.whatsapp.net
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: sogood.linefriends.com
+  type: vmess
+  server: sogood.linefriends.com
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: Driver.gojek.link
+  type: vmess
+  server: Driver.gojek.link
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: asphalt.gojek.com
+  type: vmess
+  server: asphalt.gojek.com
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: static.line-scdn.net
+  type: vmess
+  server: static.line-scdn.net
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: ava.game.naver.com
+  type: vmess
+  server: ava.game.naver.com
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: df.game.naver.com
+  type: vmess
+  server: df.game.naver.com
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: care.pmang.game.naver.com
+  type: vmess
+  server: care.pmang.game.naver.com
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: blog.clova.line.me
+  type: vmess
+  server: blog.clova.line.me
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: cs-ocr.clova.line.me
+  type: vmess
+  server: cs-ocr.clova.line.me
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: lb.clova.line.me
+  type: vmess
+  server: lb.clova.line.me
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: cs-cb.clova.line.me
+  type: vmess
+  server: cs-cb.clova.line.me
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
