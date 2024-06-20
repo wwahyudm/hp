@@ -74,6 +74,12 @@ proxy-groups:
     interval: 300
     use:
       - XCL
+  - name: VISION
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    use:
+      - VISION
   - name: BUNDLING
     type: select
     url: 'http://www.gstatic.com/generate_204'
@@ -83,10 +89,11 @@ proxy-groups:
     use:
       - VIDIO
       - XCL
+      - VISION
 rules:
  - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
  - RULE-SET,Direct,BUNDLING
- - MATCH,VIDIO,XCL
+ - MATCH,VIDIO,XCL,VISION
 rule-providers:
   Direct:
     type: http
