@@ -87,7 +87,7 @@ proxy-groups:
     interval: 300
     use:
       - VS
- - name: BYU
+- name: BYU
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
