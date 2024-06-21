@@ -108,7 +108,7 @@ proxy-groups:
 rules:
  - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
  - RULE-SET,Direct,BUNDLING
- - MATCH,VIDIO,XCL,VISION,BYU
+ - MATCH,VIDIO,XCL,VS,BYU
 rule-providers:
   Direct:
     type: http
