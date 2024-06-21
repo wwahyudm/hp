@@ -1,5 +1,5 @@
 proxies:
-- name: space.byu.id (CDN)
+- name: space.byu.id
   type: vmess
   server: space.byu.id
   port: 443
