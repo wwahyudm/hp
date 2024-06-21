@@ -103,12 +103,12 @@ proxy-groups:
     use:
       - VIDIO
       - XCL
-      - VS
+      - VISION
       - BYU
 rules:
  - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
  - RULE-SET,Direct,BUNDLING
- - MATCH,VIDIO,XCL,VS,BYU
+ - MATCH,VIDIO,XCL,VISION,BYU
 rule-providers:
   Direct:
     type: http
