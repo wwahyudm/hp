@@ -1,5 +1,5 @@
 proxies:
-- name: space.byu.id
+- name: space.byu.id (CDN)
   type: vmess
   server: space.byu.id
   port: 443
@@ -9,8 +9,25 @@ proxies:
   udp: true
   skip-cert-verify: true
   tls: true
+  servername: biznet-2.vpnpremium.id
   network: ws
   ws-opts:
     path: "/vmess"
     headers:
       Host: biznet-2.vpnpremium.id
+- name: space.byu.id (SNI)
+  type: vmess
+  server: biznet-2.vpnpremium.id
+  port: 443
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: space.byu.id
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: space.byu.id
