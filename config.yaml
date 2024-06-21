@@ -80,7 +80,8 @@ proxy-groups:
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
-    use: - XCL
+    use: 
+    - XCL
   - name: VISION
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
