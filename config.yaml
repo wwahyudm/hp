@@ -103,7 +103,7 @@ proxy-groups:
     use:
       - VIDIO
       - XCL
-      - VISION
+      - VS
       - BYU
 rules:
  - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
