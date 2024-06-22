@@ -60,6 +60,7 @@ proxy-groups:
     interval: 300
     use:
       - IPLED
+
   - name: BYU
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
