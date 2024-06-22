@@ -1,0 +1,346 @@
+proxies:
+- name: SI-MERAH-1
+  type: vmess
+  server: 104.17.3.81
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-2
+  type: vmess
+  server: 104.17.2.81
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-3
+  type: vmess
+  server: 104.18.2.2
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-4
+  type: vmess
+  server: 104.18.3.2
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-5
+  type: vmess
+  server: 104.22.24.131
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-6
+  type: vmess
+  server: 104.22.25.131
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-7
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-8
+  type: vmess
+  server: 104.26.6.171
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-9
+  type: vmess
+  server: 104.26.6.172
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-10
+  type: vmess
+  server: 104.18.25.139
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-11
+  type: vmess
+  server: 104.18.24.139
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-12
+  type: vmess
+  server: 104.16.226.91
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-13
+  type: vmess
+  server: 104.16.282.114
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-14
+  type: vmess
+  server: 104.18.160.90
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-15
+  type: vmess
+  server: 104.21.21.104
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-16
+  type: vmess
+  server: 104.16.87.20
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-17
+  type: vmess
+  server: 104.17.78.107
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-18
+  type: vmess
+  server: 104.17.74.91
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-19
+  type: vmess
+  server: 104.16.66.85
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-20
+  type: vmess
+  server: 104.16.51.111
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-21
+  type: vmess
+  server: 104.27.3.171
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-22
+  type: vmess
+  server: 104.26.6.171
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: SI-MERAH-23
+  type: vmess
+  server: tsel.sytes.net
+  port: 80
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
