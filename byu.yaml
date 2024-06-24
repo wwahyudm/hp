@@ -15,9 +15,9 @@ proxies:
     path: "/vmess"
     headers:
       Host: biznet-2.vpnpremium.id
-- name: space.byu.id (SNI)
+- name: space.byu.id2
   type: vmess
-  server: biznet-2.vpnpremium.id
+  server: space.byu.id
   port: 443
   uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
   alterId: 0
@@ -25,9 +25,121 @@ proxies:
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: space.byu.id
+  servername: biznet-2.vpnpremium.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "GET-WSS WSS://space.byu.id/vmess"
     headers:
-      Host: space.byu.id
+      Host: biznet-2.vpnpremium.id
+- name: space.byu.id3
+  type: vmess
+  server: space.byu.id
+  port: 443
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: biznet-2.vpnpremium.id
+  network: ws
+  ws-opts:
+    path: "GET-WSS wss://space.byu.id/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: space.byu.id4
+  type: vmess
+  server: space.byu.id
+  port: 443
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: biznet-2.vpnpremium.id
+  network: ws
+  ws-opts:
+    path: "wss://space.byu.id/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: space.byu.id5
+  type: vmess
+  server: space.byu.id
+  port: 443
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: biznet-2.vpnpremium.id
+  network: ws
+  ws-opts:
+    path: "WSS://space.byu.id/vmess"
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: space.byu.id6
+  type: vmess
+  server: space.byu.id
+  port: 443
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: biznet-2.vpnpremium.id
+  network: ws
+  ws-opts:
+    path: GET-WSS wss://space.byu.id/vmess
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: space.byu.id7
+  type: vmess
+  server: space.byu.id
+  port: 443
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: biznet-2.vpnpremium.id
+  network: ws
+  ws-opts:
+    path: GET-WSS WSS://space.byu.id/vmess
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: space.byu.id8
+  type: vmess
+  server: space.byu.id
+  port: 443
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: biznet-2.vpnpremium.id
+  network: ws
+  ws-opts:
+    path: wss://space.byu.id/vmess
+    headers:
+      Host: biznet-2.vpnpremium.id
+- name: space.byu.id9
+  type: vmess
+  server: space.byu.id
+  port: 443
+  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: biznet-2.vpnpremium.id
+  network: ws
+  ws-opts:
+    path: WSS://space.byu.id/vmess
+    headers:
+      Host: biznet-2.vpnpremium.id
