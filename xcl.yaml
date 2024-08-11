@@ -1,0 +1,78 @@
+proxies:
+- name: app-stg.gopay.co.id
+  type: trojan
+  server: app-stg.gopay.co.id
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojan
+- name: onelink.seabank.co.id
+  type: trojan
+  server: onelink.seabank.co.id
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojan
+- name: account.pmang.game.naver.com
+  type: trojan
+  server: account.pmang.game.naver.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojan
+- name: media.fcgk35-1.fna.whatsapp.net
+  type: trojan
+  server: media.fcgk35-1.fna.whatsapp.net
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojan
+- name: ava.game.naver.com
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojan
+- name: df.game.naver.com
+  type: trojan
+  server: df.game.naver.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojan
+- name: care.pmang.game.naver.com
+  type: trojan
+  server: care.pmang.game.naver.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojan
