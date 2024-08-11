@@ -1,0 +1,157 @@
+proxies:                        
+- name: cache.netflix.com
+  type: trojan
+  server: cache.netflix.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: npca.netflix.com
+  type: trojan
+  server: npca.netflix.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: updates.netflix.com
+  type: trojan
+  server: updates.netflix.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: zendesk3.tickets.netflix.com
+  type: trojan
+  server: zendesk3.tickets.netflix.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: zendesk4.tickets.netflix.com
+  type: trojan
+  server: zendesk4.tickets.netflix.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.18.119.155
+  type: trojan
+  server: 104.18.119.155
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.18.116.155
+  type: trojan
+  server: 104.18.116.155
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.18.117.155
+  type: trojan
+  server: 104.18.117.155
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.18.120.155
+  type: trojan
+  server: 104.18.120.155
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.18.118.155
+  type: trojan
+  server: 104.18.118.155
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 162.159.138.6
+  type: trojan
+  server: 162.159.138.6
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 162.159.128.7
+  type: trojan
+  server: 162.159.128.7
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
