@@ -1,331 +1,309 @@
 proxies:
 - name: 104.17.3.81
-  type: vmess
+  type: trojan
   server: 104.17.3.81
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.17.2.81
-  type: vmess
+  type: trojan
   server: 104.17.2.81
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.18.2.2
-  type: vmess
+  type: trojan
   server: 104.18.2.2
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.18.3.2
-  type: vmess
+  type: trojan
   server: 104.18.3.2
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.22.24.131
-  type: vmess
+  type: trojan
   server: 104.22.24.131
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.22.25.131
-  type: vmess
+  type: trojan
   server: 104.22.25.131
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.26.7.171
-  type: vmess
+  type: trojan
   server: 104.26.7.171
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.26.6.171
-  type: vmess
+  type: trojan
   server: 104.26.6.171
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.26.6.172
-  type: vmess
+  type: trojan
   server: 104.26.6.172
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.18.25.139
-  type: vmess
+  type: trojan
   server: 104.18.25.139
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.18.24.139
-  type: vmess
+  type: trojan
   server: 104.18.24.139
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.16.226.91
-  type: vmess
+  type: trojan
   server: 104.16.226.91
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.16.282.114
-  type: vmess
+  type: trojan
   server: 104.16.282.114
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.18.160.90
-  type: vmess
+  type: trojan
   server: 104.18.160.90
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.21.21.104
-  type: vmess
+  type: trojan
   server: 104.21.21.104
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.16.87.20
-  type: vmess
+  type: trojan
   server: 104.16.87.20
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.17.78.107
-  type: vmess
+  type: trojan
   server: 104.17.78.107
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.17.74.91
-  type: vmess
+  type: trojan
   server: 104.17.74.91
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.16.66.85
-  type: vmess
+  type: trojan
   server: 104.16.66.85
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.16.51.111
-  type: vmess
+  type: trojan
   server: 104.16.51.111
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: 104.27.3.171
-  type: vmess
+  type: trojan
   server: 104.27.3.171
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
 - name: tsel.sytes.net
-  type: vmess
+  type: trojan
   server: tsel.sytes.net
-  port: 80
-  uuid: 587b44e0-2c2f-4660-87cb-beddd09a8ba8
-  alterId: 0
-  cipher: auto
+  port: 443
+  password: i-ahm22
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
+  sni: sgdo7.mamzstore.my.id
   network: ws
   ws-opts:
-    path: "/vmess"
+    path: "/trojan"
     headers:
-      Host: biznet-2.vpnpremium.id
+      Host: sgdo7.mamzstore.my.id
