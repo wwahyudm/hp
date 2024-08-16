@@ -1,19 +1,4 @@
 proxies:
-- name: cache.netflix.com
-  type: trojan
-  server: cache.netflix.com
-  port: 443
-  password: i-ahm22
-  udp: true
-  sni: sgdo7.mamzstore.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojan"
-    headers:
-      Host: sgdo7.mamzstore.my.id
-
-
 - name: app-stg.gopay.co.id
   type: trojan
   server: app-stg.gopay.co.id
