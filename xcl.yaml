@@ -1,4 +1,19 @@
 proxies:
+- name: cache.netflix.com
+  type: trojan
+  server: cache.netflix.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+
+
 - name: app-stg.gopay.co.id
   type: trojan
   server: app-stg.gopay.co.id
@@ -7,9 +22,11 @@ proxies:
   udp: true
   sni: sgdo7.mamzstore.my.id
   skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: trojan
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
 - name: onelink.seabank.co.id
   type: trojan
   server: onelink.seabank.co.id
@@ -18,9 +35,11 @@ proxies:
   udp: true
   sni: sgdo7.mamzstore.my.id
   skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: trojan
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
 - name: account.pmang.game.naver.com
   type: trojan
   server: account.pmang.game.naver.com
@@ -29,9 +48,11 @@ proxies:
   udp: true
   sni: sgdo7.mamzstore.my.id
   skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: trojan
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
 - name: media.fcgk35-1.fna.whatsapp.net
   type: trojan
   server: media.fcgk35-1.fna.whatsapp.net
@@ -40,9 +61,11 @@ proxies:
   udp: true
   sni: sgdo7.mamzstore.my.id
   skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: trojan
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
 - name: ava.game.naver.com
   type: trojan
   server: ava.game.naver.com
@@ -51,9 +74,11 @@ proxies:
   udp: true
   sni: sgdo7.mamzstore.my.id
   skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: trojan
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
 - name: df.game.naver.com
   type: trojan
   server: df.game.naver.com
@@ -62,9 +87,11 @@ proxies:
   udp: true
   sni: sgdo7.mamzstore.my.id
   skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: trojan
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
 - name: care.pmang.game.naver.com
   type: trojan
   server: care.pmang.game.naver.com
@@ -73,6 +100,8 @@ proxies:
   udp: true
   sni: sgdo7.mamzstore.my.id
   skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: trojan
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
