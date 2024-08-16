@@ -94,6 +94,12 @@ proxy-groups:
     interval: 300
     use:
       - XCL
+  - name: UTU
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    use:
+      - UTU
   - name: BUNDLING
     type: select
     url: 'http://www.gstatic.com/generate_204'
@@ -105,10 +111,11 @@ proxy-groups:
       - BYU
       - NETFLIX
       - XCL
+      - UTU
 rules:
  - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
  - RULE-SET,Direct,BUNDLING
- - MATCH,ILPED,BYU,NETFLIX,XCL
+ - MATCH,ILPED,BYU,NETFLIX,XCL,UTU
 rule-providers:
   Direct:
     type: http
