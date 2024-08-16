@@ -1,0 +1,287 @@
+proxies:
+- name: cf.shopee.co.id.cloudscdn.net
+  type: trojan
+  server: cf.shopee.co.id.cloudscdn.net
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: cf.shopee.co.id.sea-sw.swiftserve.com
+  type: trojan
+  server: cf.shopee.co.id.sea-sw.swiftserve.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.18.56.56
+  type: trojan
+  server: 104.18.56.56
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.18.62.203
+  type: trojan
+  server: 104.18.62.203
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.18.24.176
+  type: trojan
+  server: 104.18.24.176
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.18.28.141
+  type: trojan
+  server: 104.18.28.141
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.18.22.85
+  type: trojan
+  server: 104.18.22.85
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: investor.fb.com
+  type: trojan
+  server: investor.fb.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: graph.instagram.com
+  type: trojan
+  server: graph.instagram.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: hwvip.iflix.com
+  type: trojan
+  server: hwvip.iflix.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: btrace.qq.com
+  type: trojan
+  server: btrace.qq.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: cvs-deo.shopeemobile.com
+  type: trojan
+  server: cvs-deo.shopeemobile.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: cfdn.viu.com
+  type: trojan
+  server: cfdn.viu.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: quiz.int.vidio.com
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: vidio.cirebon.store
+  type: trojan
+  server: vidio.cirebon.store
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: wong.cirebon.store
+  type: trojan
+  server: wong.cirebon.store
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: nontontv.vidio.com
+  type: trojan
+  server: nontontv.vidio.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: quiz.staging.vidio.com
+  type: trojan
+  server: quiz.staging.vidio.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: img.email1.vidio.com
+  type: trojan
+  server: img.email1.vidio.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: img.email3.vidio.com
+  type: trojan
+  server: img.email3.vidio.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: img.email2.vidio.com
+  type: trojan
+  server: img.email2.vidio.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: quiz.vidio.com
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
