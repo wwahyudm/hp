@@ -13,3 +13,17 @@ proxies:
     path: "/trojan"
     headers:
       Host: sgdo7.mamzstore.my.id
+- name: space.byu.id rio
+  type: trojan
+  server: space.byu.id
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
