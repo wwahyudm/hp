@@ -71,7 +71,7 @@ proxy-providers:
       interval: 100
   VIDIO:
     type: file
-    path: "./utu.yaml"
+    path: "./vidio.yaml"
     url: https://raw.githubusercontent.com/wwahyudm/hp/main/vidio.yaml
     health-check:
       enable: true
@@ -79,7 +79,7 @@ proxy-providers:
       interval: 100
   VISION:
     type: file
-    path: "./utu.yaml"
+    path: "./vision.yaml"
     url: https://raw.githubusercontent.com/wwahyudm/hp/main/vision.yaml
     health-check:
       enable: true
