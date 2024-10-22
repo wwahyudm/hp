@@ -1,0 +1,29 @@
+proxies:
+- name: 104.18.225.52 rio
+  type: trojan
+  server: 104.18.225.52
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.18.225.52
+  type: trojan
+  server: 104.18.225.52
+  port: 443
+  password: i-ahm22
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: sgdo7.mamzstore.my.id
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
