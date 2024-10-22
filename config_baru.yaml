@@ -69,10 +69,18 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 100
-  UTU:
+  VIDIO:
     type: file
     path: "./utu.yaml"
     url: https://raw.githubusercontent.com/wwahyudm/hp/main/vidio.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 100
+  VISION:
+    type: file
+    path: "./utu.yaml"
+    url: https://raw.githubusercontent.com/wwahyudm/hp/main/vision.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -108,6 +116,12 @@ proxy-groups:
     interval: 300
     use:
       - VIDIO
+  - name: VISION
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    use:
+      - VISION
   - name: BUNDLING
     type: select
     url: 'http://www.gstatic.com/generate_204'
@@ -120,10 +134,11 @@ proxy-groups:
       - NETFLIX
       - XCL
       - VIDIO
+      - VISION
 rules:
  - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
  - RULE-SET,Direct,BUNDLING
- - MATCH,ILPED,BYU,NETFLIX,XCL,VIDIO
+ - MATCH,ILPED,BYU,NETFLIX,XCL,VIDIO,VISION
 rule-providers:
   Direct:
     type: http
