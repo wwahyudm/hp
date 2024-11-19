@@ -155,3 +155,17 @@ proxies:
     path: "/trojan"
     headers:
       Host: spoint-1.patunganvps.net
+- name: zaintest.vuclip.com
+  type: trojan
+  server: zaintest.vuclip.com
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+
