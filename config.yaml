@@ -1,32 +1,54 @@
-port: 7890
-socks-port: 7891
-redir-port: 7892
-mixed-port: 7893
-mode: rule
-log-level: silent
-allow-lan: true
-external-controller: 0.0.0.0:9090
-bind-address: "*"
-ipv6: false
+
 dns:
+  nameserver:
+  - http://dns.quad9.net/dns-query
+  - tls://dns.quad9.net
+  - 9.9.9.9
+  - 149.112.112.112
+  - 192.168.8.1
+  - 192.168.9.1
+  - dhcp://"eth1"
+  - dhcp://"wwan0"
+  - https://dns.adguard.com/dns-query
+  - https://dns-google.com/dns-query
+  - tls://dns.adguard.com
+  - tls://dns-google.com/
+  - https://cloudflare-dns.com/dns-query
+  - https://dns.google/dns-query
+  - tls://1.1.1.1:853
+  - tls://8.8.8.8:853
   enable: true
   ipv6: false
   enhanced-mode: redir-host
+  fake-ip-range: 198.18.0.1/16
   listen: 0.0.0.0:7894
+  fake-ip-filter:
+  - "+.*"
+  default-nameserver:
+  - 192.168.9.1
+  - 192.168.8.1
+  - 9.9.9.9
+  - 149.112.112.112
   fallback-filter:
     geoip: false
     ipcidr:
     - 240.0.0.0/4
-  nameserver:
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.google/dns-query
-    - tls://1.1.1.1:853
-    - tls://8.8.8.8:853
   fallback:
     - tcp://1.1.1.1
     - tcp://8.8.8.8
     - 1.1.1.1
     - 8.8.8.8
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+mode: rule
+log-level: info
+allow-lan: true
+external-controller: 0.0.0.0:9090
+bind-address: "*"
+ipv6: false
+unified-delay: true
 tun:
   enable: true
   stack: system 
@@ -34,33 +56,18 @@ tun:
   macOS-auto-detect-interface: true
   dns-hijack:
     - tcp://8.8.8.8:53
+    - tcp://8.8.4.4:53
 experimental:
   interface-name: en0
 proxy-providers:
-  VIDIO:
+  ILPED:
     type: file
-    path: "./vidio.yaml"
-    url: https://raw.githubusercontent.com/wwahyudm/hp/main/vidio_vmess.yaml
+    path: "./ilped.yaml"
+    url: https://raw.githubusercontent.com/wwahyudm/hp/main/ilped.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
-      interval: 100
-  XCL:
-    type: file
-    path: "./xcl.yaml"
-    url: https://raw.githubusercontent.com/wwahyudm/hp/main/xcl_vmess.yaml
-    health-check:
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 100
-  VISION:
-    type: file
-    path: "./vision.yaml"
-    url: https://raw.githubusercontent.com/wwahyudm/hp/main/vision_vmess.yaml
-    health-check:
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 100
+      interval: 300
   BYU:
     type: file
     path: "./byu.yaml"
@@ -68,47 +75,106 @@ proxy-providers:
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
-      interval: 100
+      interval: 300
+  NETFLIX:
+    type: file
+    path: "./netflix.yaml"
+    url: https://raw.githubusercontent.com/wwahyudm/hp/main/netflix.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+  XCL:
+    type: file
+    path: "./xcl.yaml"
+    url: https://raw.githubusercontent.com/wwahyudm/hp/main/xcl.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+  VIDIO:
+    type: file
+    path: "./vidio.yaml"
+    url: https://raw.githubusercontent.com/wwahyudm/hp/main/vidio.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+  VISION:
+    type: file
+    path: "./vision.yaml"
+    url: https://raw.githubusercontent.com/wwahyudm/hp/main/vision.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
 proxy-groups:
-  - name: VIDIO
+  - name: ILPED
     type: url-test
+    disable-udp: false
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
-      - VIDIO
-  - name: XCL
-    type: url-test
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 300
-    use: 
-      - XCL
-  - name: VISION
-    type: url-test
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 300
-    use:
-      - VISION 
+      - ILPED
+    tolerance: '150'
   - name: BYU
     type: url-test
+    disable-udp: false
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
       - BYU
+    tolerance: '150'
+  - name: NETFLIX
+    type: url-test
+    disable-udp: false
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    use:
+      - NETFLIX
+    tolerance: '150'
+  - name: XCL
+    type: url-test
+    disable-udp: false
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    use:
+      - XCL
+    tolerance: '150'
+  - name: VIDIO
+    type: url-test
+    disable-udp: false
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    use:
+      - VIDIO
+    tolerance: '150'
+  - name: VISION
+    type: url-test
+    disable-udp: false
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    use:
+      - VISION
+    tolerance: '150'
   - name: BUNDLING
     type: select
     url: 'http://www.gstatic.com/generate_204'
-    interval: 100
+    interval: 300
+    tolerance: '150'
     proxies:
       - DIRECT
     use:
-      - VIDIO
-      - XCL
-      - VISION
+      - ILPED
       - BYU
+      - NETFLIX
+      - XCL
+      - VIDIO
+      - VISION
 rules:
  - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
  - RULE-SET,Direct,BUNDLING
- - MATCH,VIDIO,XCL,VISION,BYU
+ - MATCH,ILPED,BYU,NETFLIX,XCL,VIDIO,VISION,GLOBAL
 rule-providers:
   Direct:
     type: http
