@@ -147,5 +147,3 @@ rule-providers:
     url: https://raw.githubusercontent.com/wwahyudm/cmfa/main/fullrule.yaml
     interval: 86400
  
-
-z
