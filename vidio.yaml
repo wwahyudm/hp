@@ -1,4 +1,5 @@
 proxies:
+#VIDIO
 - name: 104.16.13.120
   type: trojan
   server: 104.16.13.120
@@ -220,6 +221,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: spoint-1.patunganvps.net
+#FACEBOOK
 - name: investor.fb.com 
   type: trojan
   server: investor.fb.com 
