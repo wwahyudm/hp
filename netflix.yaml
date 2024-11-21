@@ -1,4 +1,5 @@
 proxies:                        
+#NETFLIX
 - name: cache.netflix.com
   type: trojan
   server: cache.netflix.com
@@ -155,6 +156,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: spoint-1.patunganvps.net
+#VIU
 - name: zaintest.vuclip.com
   type: trojan
   server: zaintest.vuclip.com
