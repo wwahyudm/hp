@@ -117,6 +117,7 @@ proxy-groups:
     use:
       - NETFLIX
       - VIDIO
+      - ILPED
     tolerance: 150
   - name: ILPED
     type: url-test
