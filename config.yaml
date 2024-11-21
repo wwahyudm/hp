@@ -109,6 +109,15 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
       interval: 300
 proxy-groups:
+  - name: ALL
+    type: url-test
+    disable-udp: false
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    use:
+      - NETFLIX
+      - VIDIO
+    tolerance: 150
   - name: ILPED
     type: url-test
     disable-udp: false
@@ -157,15 +166,6 @@ proxy-groups:
     use:
       - VISION
     tolerance: '150'
-  - name: ALL
-    type: url-test
-    disable-udp: false
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 300
-    use:
-      - NETFLIX
-      - VIDIO
-    tolerance: 150
   - name: BUNDLING
     type: select
     url: 'http://www.gstatic.com/generate_204'
