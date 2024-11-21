@@ -168,16 +168,94 @@ proxies:
     path: "/trojan"
     headers:
       Host: spoint-1.patunganvps.net
-- name: zaintest.vuclip.com wilcard
+- name: cfcdn.viu.com
   type: trojan
-  server: zaintest.vuclip.com
+  server: cfcdn.viu.com
   port: 443
   password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: zaintest.vuclip.com.spoint-1.patunganvps.net
+  sni: spoint-1.patunganvps.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: zaintest.vuclip.com.spoint-1.patunganvps.net
+      Host: spoint-1.patunganvps.net
+- name: help.viu.com
+  type: trojan
+  server: help.viu.com
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.18.0.139
+  type: trojan
+  server: 104.18.0.139
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.18.1.139
+  type: trojan
+  server: 104.18.1.139
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.18.6.235
+  type: trojan
+  server: 104.18.6.235
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.18.38.43
+  type: trojan
+  server: 104.18.38.43
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 172.64.149.213
+  type: trojan
+  server: 172.64.149.213
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
