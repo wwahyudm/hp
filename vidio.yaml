@@ -3,234 +3,233 @@ proxies:
   type: trojan
   server: 104.16.13.120
   port: 443
-  password: i-ahm22
+  password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: sgdo7.mamzstore.my.id
+  sni: spoint-1.patunganvps.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.my.id
+      Host: spoint-1.patunganvps.net
 - name: 172.67.5.14
   type: trojan
   server: 172.67.5.14
   port: 443
-  password: i-ahm22
+  password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: sgdo7.mamzstore.my.id
+  sni: spoint-1.patunganvps.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.my.id
+      Host: spoint-1.patunganvps.net
 - name: 104.22.5.240
   type: trojan
   server: 104.22.5.240
   port: 443
-  password: i-ahm22
+  password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: sgdo7.mamzstore.my.id
+  sni: spoint-1.patunganvps.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.my.id
+      Host: spoint-1.patunganvps.net
 - name: 104.22.4.240
   type: trojan
   server: 104.22.4.240
   port: 443
-  password: i-ahm22
+  password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: sgdo7.mamzstore.my.id
+  sni: spoint-1.patunganvps.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.my.id
+      Host: spoint-1.patunganvps.net
 - name: 104.16.15.120
   type: trojan
   server: 104.16.15.120
   port: 443
-  password: i-ahm22
+  password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: sgdo7.mamzstore.my.id
+  sni: spoint-1.patunganvps.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.my.id
+      Host: spoint-1.patunganvps.net
 - name: 104.16.14.120
   type: trojan
   server: 104.16.14.120
   port: 443
-  password: i-ahm22
+  password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: sgdo7.mamzstore.my.id
+  sni: spoint-1.patunganvps.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.my.id
+      Host: spoint-1.patunganvps.net
 - name: 104.16.16.120
   type: trojan
   server: 104.16.16.120
   port: 443
-  password: i-ahm22
+  password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: sgdo7.mamzstore.my.id
+  sni: spoint-1.patunganvps.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.my.id
+      Host: spoint-1.patunganvps.net
 - name: 104.16.17.120
   type: trojan
   server: 104.16.17.120
   port: 443
-  password: i-ahm22
+  password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: sgdo7.mamzstore.my.id
+  sni: spoint-1.patunganvps.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.my.id
+      Host: spoint-1.patunganvps.net
 - name: quiz.int.vidio.com
   type: trojan
   server: quiz.int.vidio.com
   port: 443
-  password: i-ahm22
+  password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: sgdo7.mamzstore.my.id
+  sni: spoint-1.patunganvps.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.my.id
+      Host: spoint-1.patunganvps.net
 - name: quiz.vidio.com
   type: trojan
   server: quiz.vidio.com
   port: 443
-  password: i-ahm22
+  password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: sgdo7.mamzstore.my.id
+  sni: spoint-1.patunganvps.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.my.id
+      Host: spoint-1.patunganvps.net
 - name: img.email2.vidio.com
   type: trojan
   server: img.email2.vidio.com
   port: 443
-  password: i-ahm22
+  password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: sgdo7.mamzstore.my.id
+  sni: spoint-1.patunganvps.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.my.id
+      Host: spoint-1.patunganvps.net
 - name: img.email3.vidio.com
   type: trojan
   server: img.email3.vidio.com
   port: 443
-  password: i-ahm22
+  password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: sgdo7.mamzstore.my.id
+  sni: spoint-1.patunganvps.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.my.id
+      Host: spoint-1.patunganvps.net
 - name: img.email1.vidio.com
   type: trojan
   server: img.email1.vidio.com
   port: 443
-  password: i-ahm22
+  password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: sgdo7.mamzstore.my.id
+  sni: spoint-1.patunganvps.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.my.id
+      Host: spoint-1.patunganvps.net
 - name: quiz.staging.vidio.com
   type: trojan
   server: quiz.staging.vidio.com
   port: 443
-  password: i-ahm22
+  password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: sgdo7.mamzstore.my.id
+  sni: spoint-1.patunganvps.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.my.id
+      Host: spoint-1.patunganvps.net
 - name: nontontv.vidio.com
   type: trojan
   server: nontontv.vidio.com
   port: 443
-  password: i-ahm22
+  password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: sgdo7.mamzstore.my.id
+  sni: spoint-1.patunganvps.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.my.id
+      Host: spoint-1.patunganvps.net
 - name: wong.cirebon.store
   type: trojan
   server: wong.cirebon.store
   port: 443
-  password: i-ahm22
+  password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: sgdo7.mamzstore.my.id
+  sni: spoint-1.patunganvps.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.my.id
+      Host: spoint-1.patunganvps.net
 - name: vidio.cirebon.store
   type: trojan
   server: vidio.cirebon.store
   port: 443
-  password: i-ahm22
+  password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: sgdo7.mamzstore.my.id
+  sni: spoint-1.patunganvps.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.my.id
-- name: zaintest.vuclip.com
+      Host: spoint-1.patunganvps.net
+- name: investor.fb.com 
   type: trojan
-  server: zaintest.vuclip.com
+  server: investor.fb.com 
   port: 443
-  password: i-ahm22
+  password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: sgdo7.mamzstore.my.id
+  sni: spoint-1.patunganvps.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.my.id
-
+      Host: spoint-1.patunganvps.net
