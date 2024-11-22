@@ -81,18 +81,18 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
       interval: 100
 proxy-groups:
-  - name: ILPED
-    type: url-test
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 100
-    use:
-      - ILPED
   - name: BYU
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 100
     use:
       - BYU
+  - name: ILPED
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 100
+    use:
+      - ILPED
   - name: NETFLIX
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
