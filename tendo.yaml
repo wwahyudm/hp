@@ -116,6 +116,6 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 100
     use:
-      - VISION
+      - VIDIO
 rules:
   - MATCH,ILPED,BYU,NETFLIX,XCL,VIDIO,VISION
