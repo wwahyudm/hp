@@ -117,14 +117,5 @@ proxy-groups:
     interval: 100
     use:
       - VISION
-    proxies:
-      - DIRECT
-    use:
-      - ILPED
-      - BYU
-      - NETFLIX
-      - XCL
-      - VIDIO
-      - VISION
 rules:
   - MATCH,ILPED,BYU,NETFLIX,XCL,VIDIO,VISION
