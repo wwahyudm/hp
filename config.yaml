@@ -1,34 +1,34 @@
 
 dns:
   nameserver:
-  - https://dns.quad9.net/dns-query
-  - tls://dns.quad9.net
-  - 9.9.9.9
-  - 149.112.112.112
-  - 192.168.8.1
-  - 192.168.9.1
-  - dhcp://"eth1"
-  - dhcp://"wwan0"
-  - https://dns.adguard.com/dns-query
-  - https://dns-google.com/dns-query
-  - tls://dns.adguard.com
-  - tls://dns-google.com/
-  - https://cloudflare-dns.com/dns-query
-  - https://dns.google/dns-query
-  - tls://1.1.1.1:853
-  - tls://8.8.8.8:853
+    - https://dns.quad9.net/dns-query
+    - tls://dns.quad9.net
+    - 9.9.9.9
+    - 149.112.112.112
+    - 192.168.8.1
+    - 192.168.9.1
+    - dhcp://"eth1"
+    - dhcp://"wwan0"
+    - https://dns.adguard.com/dns-query
+    - https://dns-google.com/dns-query
+    - tls://dns.adguard.com
+    - tls://dns-google.com/
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
+    - tls://1.1.1.1:853
+    - tls://8.8.8.8:853
   enable: true
   ipv6: false
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
-  listen: 0.0.0.0:7894
+  listen: 127.0.0.1:7874
   fake-ip-filter:
-  - "+.*"
+    - "+.*"
   default-nameserver:
-  - 192.168.9.1
-  - 192.168.8.1
-  - 9.9.9.9
-  - 149.112.112.112
+    - 192.168.9.1
+    - 192.168.8.1
+    - 9.9.9.9
+    - 149.112.112.112
   fallback-filter:
     geoip: false
     ipcidr:
@@ -38,9 +38,10 @@ dns:
     - tcp://8.8.8.8
     - 1.1.1.1
     - 8.8.8.8
+redir-port: 7892
 port: 7890
 socks-port: 7891
-redir-port: 7892
+tproxy-port: 7895
 mixed-port: 7893
 mode: rule
 log-level: info
