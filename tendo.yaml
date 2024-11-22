@@ -1,0 +1,267 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7895
+ipv6: false
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+secret: ""
+bind-address: "*"
+unified-delay: true
+profile:
+  store-selected: true
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  listen: 0.0.0.0:7874
+  nameserver:
+    - 8.8.8.8
+    - 1.0.0.1
+    - https://dns.google/dns-query
+  fallback:
+    - 1.1.1.1
+    - 8.8.4.4
+    - https://cloudflare-dns.com/dns-query
+    - 112.215.203.254
+  default-nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 112.215.203.254
+proxies:
+  - name: Axis Game Jabar
+    server: 104.16.108.96
+    port: 80
+    type: vless
+    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sg-vip4.mytendo.store
+  - name: Axis Game Non Jabar
+    server: cdn.appsflyer.com
+    port: 80
+    type: vless
+    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sg-vip4.mytendo.store
+  - name: Axis Shusiroll
+    server: 104.21.69.223
+    port: 80
+    type: vless
+    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sg-vip4.mytendo.store
+  - name: Axis XL Confrence
+    server: support.zoom.us
+    port: 80
+    type: vless
+    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sg-vip4.mytendo.store
+  - name: Axis XL Edukasi
+    server: 104.17.3.81
+    port: 80
+    type: vless
+    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sg-vip4.mytendo.store
+  - name: Indosat Edukasi
+    server: 141.193.213.11
+    port: 80
+    type: vless
+    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /http://sg-vip4.mytendo.store/vless
+      headers:
+        Host: zoomcares.zoom.us
+  - name: liveOn Opok
+    server: support.liveon.id
+    port: 80
+    type: vless
+    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sg-vip4.mytendo.store
+  - name: Telkomsel GameMax
+    server: 104.17.206.159
+    port: 80
+    type: vless
+    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sg-vip4.mytendo.store
+  - name: Telkomsel Ilmupedia
+    server: 104.26.6.171
+    port: 443
+    type: vless
+    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sg-vip4.mytendo.store
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sg-vip4.mytendo.store
+  - name: Telkomsel Multimedia
+    server: sg-vip4.mytendo.store
+    port: 443
+    type: vless
+    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: ichannel.musical.ly
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sg-vip4.mytendo.store
+  - name: Telkomsel OMG Nonton
+    server: 104.16.51.111
+    port: 80
+    type: vless
+    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sg-vip4.mytendo.store
+  - name: Telkomsel Ruangguru
+    server: io.ruangguru.com
+    port: 80
+    type: vless
+    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sg-vip4.mytendo.store
+  - name: XL Axis Vidio
+    server: quiz.vidio.com
+    port: 80
+    type: vless
+    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sg-vip4.mytendo.store
+  - name: XL Flex Non Jabar Sumatra
+    server: sogood.linefriends.com
+    port: 80
+    type: vless
+    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sg-vip4.mytendo.store
+  - name: XL Vision 
+    server: 172.67.192.40
+    port: 80
+    type: vless
+    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sg-vip4.mytendo.store
+proxy-groups:
+  - name: Calsh By Tendo | Store
+    type: select
+    proxies:
+      - Axis Game Jabar
+      - Axis Game Non Jabar
+      - Axis Shusiroll
+      - Axis XL Confrence
+      - Axis XL Edukasi
+      - Indosat Edukasi
+      - liveOn Opok
+      - Telkomsel GameMax
+      - Telkomsel Ilmupedia
+      - Telkomsel Multimedia
+      - Telkomsel OMG Nonton
+      - Telkomsel Ruangguru
+      - XL Axis Vidio
+      - XL Flex Non Jabar Sumatra
+      - XL Vision
+rules:
+  - MATCH,Calsh By Tendo | Store
