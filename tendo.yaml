@@ -31,237 +31,100 @@ dns:
     - 8.8.8.8
     - 1.1.1.1
     - 112.215.203.254
-proxies:
-  - name: Axis Game Jabar
-    server: 104.16.108.96
-    port: 80
-    type: vless
-    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sg-vip4.mytendo.store
-  - name: Axis Game Non Jabar
-    server: cdn.appsflyer.com
-    port: 80
-    type: vless
-    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sg-vip4.mytendo.store
-  - name: Axis Shusiroll
-    server: 104.21.69.223
-    port: 80
-    type: vless
-    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sg-vip4.mytendo.store
-  - name: Axis XL Confrence
-    server: support.zoom.us
-    port: 80
-    type: vless
-    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sg-vip4.mytendo.store
-  - name: Axis XL Edukasi
-    server: 104.17.3.81
-    port: 80
-    type: vless
-    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sg-vip4.mytendo.store
-  - name: Indosat Edukasi
-    server: 141.193.213.11
-    port: 80
-    type: vless
-    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /http://sg-vip4.mytendo.store/vless
-      headers:
-        Host: zoomcares.zoom.us
-  - name: liveOn Opok
-    server: support.liveon.id
-    port: 80
-    type: vless
-    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sg-vip4.mytendo.store
-  - name: Telkomsel GameMax
-    server: 104.17.206.159
-    port: 80
-    type: vless
-    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sg-vip4.mytendo.store
-  - name: Telkomsel Ilmupedia
-    server: 104.26.6.171
-    port: 443
-    type: vless
-    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: sg-vip4.mytendo.store
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sg-vip4.mytendo.store
-  - name: Telkomsel Multimedia
-    server: sg-vip4.mytendo.store
-    port: 443
-    type: vless
-    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: ichannel.musical.ly
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sg-vip4.mytendo.store
-  - name: Telkomsel OMG Nonton
-    server: 104.16.51.111
-    port: 80
-    type: vless
-    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sg-vip4.mytendo.store
-  - name: Telkomsel Ruangguru
-    server: io.ruangguru.com
-    port: 80
-    type: vless
-    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sg-vip4.mytendo.store
-  - name: XL Axis Vidio
-    server: quiz.vidio.com
-    port: 80
-    type: vless
-    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sg-vip4.mytendo.store
-  - name: XL Flex Non Jabar Sumatra
-    server: sogood.linefriends.com
-    port: 80
-    type: vless
-    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sg-vip4.mytendo.store
-  - name: XL Vision 
-    server: 172.67.192.40
-    port: 80
-    type: vless
-    uuid: c31a4c4b-9091-4725-bdb2-3a405a28e2b5
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sg-vip4.mytendo.store
+proxy-providers:
+  ILPED:
+    type: file
+    path: "./ilped.yaml"
+    url: https://raw.githubusercontent.com/wwahyudm/hp/main/ilped.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 100
+  BYU:
+    type: file
+    path: "./byu.yaml"
+    url: https://raw.githubusercontent.com/wwahyudm/hp/main/byu.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 100
+  NETFLIX:
+    type: file
+    path: "./netflix.yaml"
+    url: https://raw.githubusercontent.com/wwahyudm/hp/main/netflix.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 100
+  XCL:
+    type: file
+    path: "./xcl.yaml"
+    url: https://raw.githubusercontent.com/wwahyudm/hp/main/xcl.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 100
+  VIDIO:
+    type: file
+    path: "./vidio.yaml"
+    url: https://raw.githubusercontent.com/wwahyudm/hp/main/vidio.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 100
+  VISION:
+    type: file
+    path: "./vision.yaml"
+    url: https://raw.githubusercontent.com/wwahyudm/hp/main/vision.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 100
 proxy-groups:
-  - name: Calsh By Tendo | Store
-    type: select
+ 	- name: ILPED
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 100
+    use:
+      - ILPED
+  - name: BYU
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 100
+    use:
+      - BYU
+  - name: NETFLIX
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 100
+    use:
+      - NETFLIX
+  - name: XCL
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 100
+    use:
+      - XCL
+  - name: VIDIO
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 100
+    use:
+      - VIDIO
+  - name: VISION
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 100
+    use:
+      - VISION
     proxies:
-      - Axis Game Jabar
-      - Axis Game Non Jabar
-      - Axis Shusiroll
-      - Axis XL Confrence
-      - Axis XL Edukasi
-      - Indosat Edukasi
-      - liveOn Opok
-      - Telkomsel GameMax
-      - Telkomsel Ilmupedia
-      - Telkomsel Multimedia
-      - Telkomsel OMG Nonton
-      - Telkomsel Ruangguru
-      - XL Axis Vidio
-      - XL Flex Non Jabar Sumatra
-      - XL Vision
+      - DIRECT
+    use:
+      - ILPED
+      - BYU
+      - NETFLIX
+      - XCL
+      - VIDIO
+      - VISION
 rules:
-  - MATCH,Calsh By Tendo | Store
+  - MATCH,ILPED,BYU,NETFLIX,XCL,VIDIO,VISION
