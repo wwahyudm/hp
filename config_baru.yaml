@@ -86,6 +86,14 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
       interval: 100
 proxy-groups:
+  - name: ALL
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 100
+    use:
+      - ILPED
+      - NETFLIX
+      - VIDIO
   - name: ILPED
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
